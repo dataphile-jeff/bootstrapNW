@@ -2,7 +2,7 @@
 """
 Created on Mon Jul 27 15:28:21 2020
 
-@author: 71093370
+@author: dataphile-jeff
 """
 import matplotlib.pyplot as plt
 from datetime import datetime,date
