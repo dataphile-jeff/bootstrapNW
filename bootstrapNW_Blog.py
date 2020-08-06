@@ -151,9 +151,9 @@ x[0]=np.subtract(x[0],downward)
 results_downward=[]
 results_downward_growths=[]
 
-#calculate the means from the real values above
+#calculate the means from the downward adjusted values above
 mean = (np.mean(x[0]),np.mean(x[1]),np.mean(x[2]))
-#calculate the covariance matrix from the real covariances between growth, inflation, and unemployment
+#calculate the covariance matrix from the covariances between the downward adjusted growth, inflation, and unemployment
 cov = np.cov(x)
 
 for i in range(iterations):
