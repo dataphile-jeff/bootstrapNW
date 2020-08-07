@@ -279,7 +279,7 @@ plt.bar([p + width for p in pos],percentiles_unemploy,width,color='orange',label
 plt.bar([p + width*2 for p in pos],percentiles_downward,width,color='green',label='Downward Growth')
 plt.hlines(expectedFV/1000000,0-width,9,linestyles='dotted',color='red',label='Projected NW (FV)')
 ax.set_ylabel('Retirement Net Worth (in $MM)')
-ax.set_title('Projected Retirement NW by Scenario')
+ax.set_title('Projected Retirement Net Worth by Scenario')
 ax.set_xticklabels(titles)
 ax.set_xticks([p + 1.5 * width for p in pos])
 plt.legend(loc='upper left')
